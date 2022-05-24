@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Macondo&family=Oldenburg&display=swap');
 
-@media only screen and (max-width: 640px) {
-    * {
-        max-width:100%;
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        text-decoration: none;
-    }
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -140,4 +130,15 @@ body {
     border-radius: 50px 50px;
     display: block;
     margin: 0 auto;
+}
+
+@media only screen and (max-width: 900px) {
+    * {
+        max-width:100%;
+        margin: 2px;
+        padding: 2px;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-size:100%;
+    }
 }
